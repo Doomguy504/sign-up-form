@@ -121,7 +121,8 @@ input:focus {
     box-shadow: 1px 1px 3px;
 }
 
-input:invalid {
+
+input:not(:placeholder-shown):invalid {
     border-color: orangered;
 }
 
