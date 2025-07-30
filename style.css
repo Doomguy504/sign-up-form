@@ -1,3 +1,10 @@
+@font-face {
+    font-family: odin-bold;
+    src: url("assets/fonts/Norse-Bold.woff2") format("woff2"),
+        url("assets/fonts/otf/Norse-Bold.otf") format("otf");
+    font-display: swap;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -30,7 +37,9 @@ body {
 
 .logo h1 {
     display: inline-block;
-    font-size: xx-large;
+
+    font-family: odin-bold;
+    font-size: 100px;
 }
 
 .sidebar p {
