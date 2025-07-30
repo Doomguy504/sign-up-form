@@ -110,3 +110,29 @@ input:invalid {
 .create {
     padding-top: 1.5rem;
 }
+
+button {
+    padding: 1em 5em;
+
+    border-radius: 8px;
+    background-color: #596D48;
+
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+.create a {
+    color: #596D48;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create a:hover {
+    text-decoration: underline;
+}
