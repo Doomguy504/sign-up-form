@@ -84,6 +84,11 @@ form {
     box-shadow: 0 2px 5px #ccc;
 }
 
+.data p {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
 label {
     font-size: small;
     color: rgb(99, 98, 98);
