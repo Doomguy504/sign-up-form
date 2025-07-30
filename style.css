@@ -5,6 +5,10 @@
     font-display: swap;
 }
 
+:root {
+    --left-pad: 2rem;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -51,4 +55,35 @@ body {
 .sidebar a:visited,
 .sidebar a:link {
     color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: #f5f5f5;
+}
+
+.content > h2,
+.data,
+.create {
+    padding-left: var(--left-pad);
+}
+
+form {
+    width: 100%;
+}
+
+.data {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.create {
+    padding-top: 1.5rem;
 }
