@@ -25,11 +25,11 @@
                 <div>
                     <p>
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="user_first_name" id="first-name">
+                        <input type="text" name="user_first_name" id="first-name" pattern="[a-z]+">
                     </p>
                     <p>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="user_last_name" id="last-name">
+                        <input type="text" name="user_last_name" id="last-name" pattern="[a-z]+-?[a-z]*">
                     </p>
                 </div>
                 <div>
@@ -39,17 +39,17 @@
                     </p>
                     <p>
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" name="user_phone_number" id="phone">
+                        <input type="tel" name="user_phone_number" id="phone" pattern="\d{3}-?\d{3}-?\d{4}">
                     </p>
                 </div>
                 <div>
                     <p>
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" name="user_password" id="pwd">
+                        <input type="password" name="user_password" id="pwd"  pattern=".{10,}">
                     </p>
                     <p>
                         <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirmed_password" id="confirm-pwd">
+                        <input type="password" name="confirmed_password" id="confirm-pwd" pattern=".{10,}">
                     </p>
                 </div>
             </section>
