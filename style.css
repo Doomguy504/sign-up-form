@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url("assets/img/leaf-splash.jpg");
+    color: white;
+}
+
+.logo {
+    height: 200px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.logo img {
+    height: 80%;
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.sidebar p {
+    text-align: center;
+
+    font-size: small;
+}
+
+.sidebar a:visited,
+.sidebar a:link {
+    color: white;
+}
