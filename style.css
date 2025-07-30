@@ -6,7 +6,7 @@
 }
 
 :root {
-    --left-pad: 2rem;
+    --left-pad: 5rem;
 }
 
 body {
@@ -18,7 +18,8 @@ body {
 }
 
 .sidebar {
-    width: 35vw;
+    min-width: 32vw;
+    max-width: 640px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -75,16 +76,24 @@ body {
     padding-left: var(--left-pad);
 }
 
+.content h2 {
+    padding-right: 20rem;
+}
+
 form {
     width: 100%;
 }
 
 .data {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 
     background-color: white;
     box-shadow: 0 2px 5px #ccc;
+}
+
+.data h2 {
+    margin-bottom: 0;
 }
 
 .data p {
