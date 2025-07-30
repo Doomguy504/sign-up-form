@@ -110,7 +110,8 @@ label {
 input {
     display: block;
     width: 250px;
-    height: 1.5rem;
+    height: 1.7rem;
+    padding-left: .6em;
 
     border: 1px solid lightgray;
     border-radius: 5px;
